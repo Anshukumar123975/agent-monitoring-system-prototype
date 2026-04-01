@@ -40,6 +40,7 @@ Fix Recommendations
 ## Example Outputs
 
 Loop Detection
+```json
 {
   "task": "book flight",
   "status": "failed",
@@ -52,8 +53,10 @@ Loop Detection
     }
   ]
 }
+```
 
 Tool Misuse
+```json
 {
   "task": "confused agent",
   "issues": [
@@ -65,13 +68,16 @@ Tool Misuse
     }
   ]
 }
+```
 
 Successful Execution
+```json
 {
   "task": "weather in delhi",
   "status": "success",
   "issues": []
 }
+```
 
 ## Architecture
 
